@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Result</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-grid padding>
+    <ion-card class="card1">
+      <ion-card-header>
+      <strong>Total Potential Value:
+          <div>${{outputs?.output_totoverall}}</div></strong>
+      </ion-card-header>
+    </ion-card>
+
+    <ion-card class="card2">
+          <ion-card-header>
+    <strong>Contributions <br /><span>${{outputs?.output_totcontrib}}</span>
+        <div class="plus">+</div> <br />
+        <div class="right">Interest <br /><span>${{outputs?.output_totinterest}}</span></div></strong>
+    </ion-card-header>
+    </ion-card>
+    
+  <ion-card class="card3">
+    <ion-card-header>
+    <strong>Pre-Tax Savings: 
+        <div>${{outputs?.output_totpretax}}</div></strong>
+    </ion-card-header>
+  </ion-card> 
+
+</ion-grid>
+<button ion-button block class="nextbtn" (click)="movetograph()">View Graph</button>
+</ion-content>

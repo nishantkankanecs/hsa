@@ -1,0 +1,32 @@
+page-withdrawal {
+.grid{
+         background: $grid-back; 
+    min-height: 300px;
+             
+     }
+   .item-input{
+        background-color: transparent !important;
+       .item-inner, .text-input{
+       border: none !important;
+           box-shadow: none !important;
+           }
+       .text-input-wp {
+           margin: 10px 8px;}
+       .label{
+           color: $def-color;
+           padding-left: 0;
+       }
+       .input{
+             
+               min-height: 48px;
+               padding-left: 0px;
+       }
+       .label.dollar{
+           padding: $pad-glob;
+           background: $def-color;
+           color: #fff;
+           margin: 0;
+           font-size: $ico-hgt;
+       }
+}
+}

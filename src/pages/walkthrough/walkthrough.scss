@@ -1,0 +1,32 @@
+page-walkthrough {
+    // .splash-slider{
+    //     background: #000 !important;
+    //     img{            
+    //         position: absolute;
+    //         top:-10%;
+    //         right: 0;
+    //         background-size: cover;
+    //         background: #000 !important;
+    //     }
+        ion-slide {
+            background-color: #222;
+            background: linear-gradient(to bottom left, #000, #4b4b4b, #000) !important;
+            img{  position: absolute;
+            bottom: 0;
+                left: 0;
+            }
+            .button-default{
+                position: absolute;
+                bottom: 30%;
+                left:33%;
+                background: #fff;
+                color: #000;
+            }
+          }
+       
+          ion-slide img {
+            //height: 100vh !important;
+            width: auto !important;
+          }
+    }
+

@@ -1,0 +1,8 @@
+{
+  "name": "hsa",
+  "app_id": "ea58d8f1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

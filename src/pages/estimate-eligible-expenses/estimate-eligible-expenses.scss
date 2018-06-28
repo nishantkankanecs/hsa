@@ -1,0 +1,21 @@
+page-estimate-eligible-expenses {
+     .grid{
+         background: $grid-back;  
+.featureList, .featureList ul {
+  margin-top: 0;
+  padding-left: 2em;
+  list-style-type: none;
+    li{ line-height: 22px;}
+    li:before {
+  position: absolute;
+  margin-left: -1.3em;
+  font-weight: bold;  
+        
+}
+    li.tick:before {
+  content: "\2713";
+  color: darkgreen;
+}
+}
+    }
+}
