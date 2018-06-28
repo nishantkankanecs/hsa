@@ -4,7 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-//import { CoveragePage } from '../pages/coverage/coverage';
+import { CoveragePage } from '../pages/coverage/coverage';
 import { ContributePage } from '../pages/contribute/contribute';
 import { WithdrawalPage } from '../pages/withdrawal/withdrawal';
 import { WhatIsHsaPage } from '../pages/what-is-hsa/what-is-hsa';
@@ -32,7 +32,7 @@ import { HttpModule } from '@angular/http';
   declarations: [
     MyApp,
     HomePage,
-    //CoveragePage,
+    CoveragePage,
     ContributePage,
     WithdrawalPage,
     WhatIsHsaPage,
@@ -58,7 +58,7 @@ import { HttpModule } from '@angular/http';
   entryComponents: [
     MyApp,
     HomePage,
-    //CoveragePage,
+    CoveragePage,
     ContributePage,
     WithdrawalPage,
     WhatIsHsaPage,
