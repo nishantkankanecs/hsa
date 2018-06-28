@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { CoveragePage } from '../coverage/coverage';
+import { CoveragePage } from './../coverage/coverage';
 
 @Component({
   selector: 'page-home',
